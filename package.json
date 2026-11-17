@@ -1,0 +1,23 @@
+{
+  "name": "rag-hybrid-search",
+  "version": "0.1.0",
+  "description": "RAG system with hybrid search, reranking and validated citations",
+  "scripts": {
+    "test": "vitest run",
+    "smoke": "tsx scripts/smoke-test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "@huggingface/transformers": "^4.3.2",
+    "dotenv": "^18.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
