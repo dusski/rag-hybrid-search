@@ -1,0 +1,50 @@
+[
+  {
+    "id": "q01",
+    "question": "What causes NG0100 and how do I fix it?",
+    "category": "error-code-named",
+    "sources": ["reference/errors/NG0100.md"]
+  },
+  {
+    "id": "q02",
+    "question": "What does NG0203 mean, and where am I allowed to call inject()?",
+    "category": "error-code-named",
+    "sources": ["reference/errors/NG0203.md"]
+  },
+  {
+    "id": "q03",
+    "question": "My custom input component throws an error that no value accessor exists when I bind a form control to it. What am I missing?",
+    "category": "error-symptom",
+    "sources": ["reference/errors/NG01203.md"]
+  },
+  {
+    "id": "q04",
+    "question": "Two of my services depend on each other and the app fails on startup. How do I resolve it?",
+    "category": "error-symptom",
+    "sources": ["reference/errors/NG0200.md"]
+  },
+  {
+    "id": "q05",
+    "question": "How do I check that two password fields match?",
+    "category": "forms-paraphrased",
+    "sources": ["guide/forms/form-validation.md", "guide/forms/signals/cross-field-logic.md"]
+  },
+  {
+    "id": "q06",
+    "question": "How can I stop my \"is this username taken?\" server check from running on every keystroke?",
+    "category": "forms-paraphrased",
+    "sources": ["guide/forms/form-validation.md"]
+  },
+  {
+    "id": "q07",
+    "question": "How do I make a FormControl reset to its initial value instead of null?",
+    "category": "forms-specific",
+    "sources": ["guide/forms/typed-forms.md"]
+  },
+  {
+    "id": "q08",
+    "question": "What is the default value of updateOn for a form control?",
+    "category": "forms-detail",
+    "sources": ["guide/forms/form-validation.md"]
+  }
+]
